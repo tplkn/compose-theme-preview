@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'me.teplyakov.preview'
+    namespace 'me.teplyakov.preview.sample'
     compileSdk 33
 
     defaultConfig {
