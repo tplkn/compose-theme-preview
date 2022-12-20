@@ -18,7 +18,7 @@ fun FullThemePreview() {
 }
 ```
 
-*Important*: use _heightDp_ for _@Preview_ annotation to adjust preview widget in IDE
+**Important**: use _heightDp_ for _@Preview_ annotation to adjust preview widget in IDE
 
 #### Colors preview
 
