@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Compose Preview"
-include ':app'
-include ':lib'
+include ':sample'
+include ':compose-theme-preview'
