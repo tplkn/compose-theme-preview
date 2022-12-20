@@ -35,6 +35,10 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion '1.3.2'
     }
+    // TODO review later
+    lint {
+        abortOnError false
+    }
 }
 
 dependencies {
