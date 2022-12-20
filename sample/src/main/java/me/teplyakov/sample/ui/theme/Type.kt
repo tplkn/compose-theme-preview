@@ -1,4 +1,4 @@
-package me.teplyakov.preview.ui.theme
+package me.teplyakov.sample.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.runtime.Composable

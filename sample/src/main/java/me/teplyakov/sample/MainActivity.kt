@@ -1,4 +1,4 @@
-package me.teplyakov.preview
+package me.teplyakov.sample
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import me.teplyakov.preview.ui.theme.ComposePreviewTheme
+import me.teplyakov.sample.ui.theme.ComposePreviewTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

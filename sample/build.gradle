@@ -8,7 +8,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "me.teplyakov.preview"
+        applicationId "me.teplyakov.preview.sample"
         minSdk 26
         targetSdk 33
         versionCode 1
