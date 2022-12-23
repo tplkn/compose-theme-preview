@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
-    id 'maven-publish'
+    id 'com.vanniktech.maven.publish'
 }
 
 android {
@@ -39,15 +39,6 @@ android {
     lint {
         abortOnError false
     }
-    afterEvaluate {
-        publishing {
-            publications {
-                release(MavenPublication) {
-                    from components.release
-                }
-            }
-        }
-    }
 }
 
 dependencies {
@@ -63,4 +54,35 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+}
+
+group = "me.teplyakov"
+version = "SNAPSHOT"
+
+mavenPublishing {
+    pom {
+        name = "Compose Theme Preview"
+        description = "A library to help preview compose theme."
+        inceptionYear = "2020"
+        url = "https://github.com/tplkn/compose-theme-preview"
+        licenses {
+            license {
+                name = "The Apache License, Version 2.0"
+                url = "http://www.apache.org/licenses/LICENSE-2.0.txt"
+                distribution = "http://www.apache.org/licenses/LICENSE-2.0.txt"
+            }
+        }
+        developers {
+            developer {
+                id = "tplkn"
+                name = "Nikita Tepliakov"
+                url = "https://github.com/tplkn"
+            }
+        }
+        scm {
+            url = "https://github.com/tplkn/compose-theme-preview"
+            connection = "scm:git:git://github.com/tplkn/compose-theme-preview.git"
+            developerConnection = "scm:git:ssh://git@github.com:tplkn/compose-theme-preview.git"
+        }
+    }
 }

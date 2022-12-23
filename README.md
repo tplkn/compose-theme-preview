@@ -25,7 +25,7 @@ fun FullThemePreview() {
 ```
 @Preview
 @Composable
-fun FullThemePreview() {
+fun ColorsThemePreview() {
     YourTheme {
         ColorsPreview()
     }
@@ -37,7 +37,7 @@ fun FullThemePreview() {
 ```
 @Preview
 @Composable
-fun FullThemePreview() {
+fun TypographyThemePreview() {
     YourTheme {
         TypographyPreview()
     }
@@ -49,7 +49,7 @@ fun FullThemePreview() {
 ```
 @Preview
 @Composable
-fun FullThemePreview() {
+fun ShapesThemePreview() {
     YourTheme {
         ShapesPreview()
     }
