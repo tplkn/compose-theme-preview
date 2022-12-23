@@ -55,3 +55,9 @@ fun ShapesThemePreview() {
     }
 }
 ```
+
+### Compatibility
+
+| Library Version | Compose bom version |
+|-----------------|---------------------|
+| 0.1.x           | 2022.12.00          |
