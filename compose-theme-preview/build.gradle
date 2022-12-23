@@ -57,7 +57,7 @@ dependencies {
 }
 
 group = "me.teplyakov"
-version = "SNAPSHOT"
+version = "0.1.0"
 
 mavenPublishing {
     pom {
