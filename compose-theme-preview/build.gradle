@@ -1,3 +1,5 @@
+import com.vanniktech.maven.publish.SonatypeHost
+
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
@@ -60,6 +62,10 @@ group = "me.teplyakov"
 version = "SNAPSHOT"
 
 mavenPublishing {
+    publishToMavenCentral(SonatypeHost.S01)
+
+    signAllPublications()
+
     pom {
         name = "Compose Theme Preview"
         description = "A library to help preview compose theme."
