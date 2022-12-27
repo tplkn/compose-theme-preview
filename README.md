@@ -1,8 +1,22 @@
+
+[![Maven Central](https://img.shields.io/maven-central/v/me.teplyakov/compose-theme-preview.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22me.teplyakov%22%20AND%20a:%22compose-theme-preview%22)
+
 This library provides ability tot preview your compose theme in few lines of code.
 
 ### Usage
 
-TODO
+Using Gradle Groovy DSL
+
+```
+implementation 'me.teplyakov:compose-theme-preview:<last version>'
+```
+
+Using Gradle Kotlin DSL
+
+```
+implementation("me.teplyakov:compose-theme-preview:<last version>")
+```
+
 
 ### Widgets
 
