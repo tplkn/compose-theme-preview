@@ -50,7 +50,7 @@ dependencies {
 }
 
 group = "me.teplyakov"
-version = "SNAPSHOT"
+version = "0.2.0"
 
 mavenPublishing {
     publishToMavenCentral(SonatypeHost.S01)
